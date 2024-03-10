@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  functions = "functions/"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+
+[dev]
+  command = "npm run serve"
