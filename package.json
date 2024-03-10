@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "start": "concurrently \"node server.js\" \"node db_server.js\""
+    "build": "concurrently \"vue-cli-service build\" \"node db_server.js\""
   },
   "dependencies": {
     "core-js": "^3.8.3",
